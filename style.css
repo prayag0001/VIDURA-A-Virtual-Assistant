@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+.main {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container .image img {
+    width: 250px; /* Adjust image size for smaller screens */
+}
+
+.image-container h1 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+    color: #00bcd4; /* Add color for better visibility */
+}
+
+.image-container p {
+    font-size: 14px; /* Decrease font size for smaller screens */
+    color: #324042; /* Add color for better visibility */
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw; /* Adjust input width for smaller screens */
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(202 253 255 / 50%);
+}
+
+.input .talk {
+    font-size: 20px; /* Increase button size for smaller screens */
+}
+
+.input .content {
+    font-size: 12px; /* Decrease font size for smaller screens */
+    margin-right: 10px; /* Adjust margin for smaller screens */
+    color: #aed0d0; /* Add color for better visibility */
+}
